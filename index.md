@@ -8,5 +8,6 @@ permalink: /
 
 Welcome!
 
-👉 **Projects:** [Projects]({{ site.baseurl }}/projects/)  
-👩🏽‍🎓 **Students:** [People]({{ site.baseurl }}/people/)
+👉 [Projects]({{ site.baseurl }}/projects/)
+👩🏽‍🎓 [Students]({{ site.baseurl }}/people/)
+
