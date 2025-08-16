@@ -6,5 +6,7 @@ permalink: /
 
 # GRASP Lab
 
-Welcome!  
-See our [Projects]({{ site.baseurl }}/projects/) and [People]({{ site.baseurl }}/people/).
+Welcome!
+
+👉 **Projects:** [Projects]({{ site.baseurl }}/projects/)  
+👩🏽‍🎓 **Students:** [People]({{ site.baseurl }}/people/)
