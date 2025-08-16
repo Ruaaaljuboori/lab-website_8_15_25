@@ -1,26 +1,11 @@
-# --- Site settings ---
 title: "GRASP Lab"
 description: "Geospatial Research And Statistical modeling in Public Health"
-author: "Your Name"
-
-# Use GitHub Pages built-in theme for simplicity
-# (minima ships with Pages; no extra plugins needed)
 theme: minima
 
-# Navigation (minima supports this)
+# IMPORTANT for a project site (repo name is lab-website_8_15_25)
+url: "https://ruaaaljuboori.github.io"
+baseurl: "/lab-website_8_15_25"
+
 header_pages:
   - projects.md
   - people.md
-
-# Optional: your GitHub Pages URL (update after Pages is enabled)
-url: "https://YOUR-USERNAME.github.io"
-baseurl: "/lab-website"  # if your repo is not username.github.io
-
-# Social links (optional)
-minima:
-  social_links:
-    - { platform: github,         user_url: "https://github.com/YOUR-USERNAME" }
-    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/YOUR-LINKEDIN/" }
-
-# Include custom CSS
-# Add a reference in the head via an include below (see index.md front matter)
