@@ -1,0 +1,26 @@
+---
+layout: page
+title: Home
+permalink: /
+# Add custom CSS into the <head>
+# Minima supports the "head" include by default
+# Create _includes/head.html only if you want more control.
+---
+
+# GRASP Lab
+
+Welcome! We conduct research at the intersection of **public health**, **geospatial analytics**, and **data science**. Our mission is to produce actionable, equity‑focused insights and to mentor the next generation of public health scientists.
+
+👉 **Projects:** Explore our ongoing work on the [Projects page](projects.md).  
+👩🏽‍🎓 **Students:** Meet the team on the [People page](people.md).
+
+---
+
+### Focus Areas
+- Spatial epidemiology and hotspot detection
+- Healthcare access, telehealth readiness, and resilience
+- Food systems, school nutrition, and community well‑being
+
+### Contact
+- Email: your.name@university.edu  
+- Address: Department/Center, University, City, State
