@@ -1,14 +1,14 @@
 ---
 layout: home
-title: GRASP Lab
+title: MAPS Lab
 ---
 
 <div class="hero">
   <img src="{{ '/assets/logo.png' | relative_url }}" alt="GRASP Lab Logo">
-  <h1>GRASP Lab</h1>
-  <h3>Geospatial Research and Statistical Modeling in Public Health</h3>
+  <h1>MAPS Lab</h1>
+  <h3>Modeling, Analytics, and Predictive Spatial Health Research</h3>
   <p class="lead">
-    We leverage geospatial analytics and statistical modeling to study health disparities,
+    We leverage geospatial analytics and statistical modeling to study health outcomes,
     telehealth readiness, and resilience across the rural–urban continuum—turning public
     health data into actionable insight.
   </p>
@@ -24,7 +24,7 @@ title: GRASP Lab
 <hr class="rule"/>
 
 ### Latest Highlights
-- 🗺️ **Mapping the Diagnostic Gap in Alzheimer’s Disease** — national analysis of diagnosis vs. expected prevalence and service deserts.
-- 📶 **Telehealth Readiness in the Deep South** — spatial access and infrastructure gaps.
-- 🌾 **Aging Across the Rural–Urban Continuum** — resilience and population change patterns.
-- 🧒 **Food Safety in Child Nutrition Programs** — national evaluation of adoption and impact.
+-  **Mapping the Diagnostic Gap in Alzheimer’s Disease** — national analysis of diagnosis vs. expected prevalence and service deserts.
+-  **Telehealth Readiness in the Deep South** — spatial access and infrastructure gaps.
+-  **Aging Across the Rural–Urban Continuum** — resilience and population change patterns.
+-  **Food Safety in Child Nutrition Programs** — national evaluation of adoption and impact.
