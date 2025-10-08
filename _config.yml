@@ -1,8 +1,5 @@
 url: "https://ruaaljuboori.github.io"
 baseurl: "/lab-website_8_15_25"
-
-title: GRASP Lab
-description: Geospatial Research And Statistical Modeling in Public Health
 theme: minima
 
 header_pages:
