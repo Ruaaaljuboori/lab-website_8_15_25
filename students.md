@@ -13,7 +13,7 @@ permalink: /students/
 </div>
 
 <div class="card">
-  <h3>Annina Rose Liebner</h3>
+  <h3>Annina Liebner</h3>
   <div class="meta">MPH Student</div>
   <p>Literature synthesis, data curation, Manuscript Writing, Spatial Analysis.</p>
 </div>
