@@ -4,26 +4,34 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
-Below are a few active projects. Click through to see the student teams and outputs.
-
 <div class="grid">
-  <div class="card">
-    <h3><a href="/lab-website/projects/mapping-health-disparities.html">Mapping Health Disparities</a></h3>
-    <p class="small">Spatial clustering of CHD, disability, and healthcare access; county‑level indicators; equity‑focused insights.</p>
-    <span class="badge">GIS</span> <span class="badge">Public Health</span> <span class="badge">R</span>
-  </div>
-  <div class="card">
-    <h3><a href="/lab-website/projects/food-systems-resilience.html">Food Systems & Resilience</a></h3>
-    <p class="small">Culinary herbs/spices to reduce added salt/sugar in school meals; multi‑site evaluation and adoption strategies.</p>
-    <span class="badge">Nutrition</span> <span class="badge">Evaluation</span>
-  </div>
-  <div class="card">
-    <h3><a href="/lab-website/projects/hiv-geospatial-dashboard.html">HIV Geospatial Dashboard</a></h3>
-    <p class="small">Hotspot detection, access gaps, and forecasting using AIDSVu/MSDH/PolicyMap data; dashboard prototyping.</p>
-    <span class="badge">HIV</span> <span class="badge">Dashboards</span> <span class="badge">Tableau/R</span>
-  </div>
+
+<div class="card">
+  <span class="badge">NIA R03 (in prep)</span>
+  <h3>Mapping the Diagnostic Gap in Alzheimer’s Disease</h3>
+  <div class="meta">National county-level analysis • CMS, PolicyMap, U.S. Census</div>
+  <p>Quantifies diagnostic undercount vs. expected prevalence; identifies service deserts; validates with mortality and resilience indicators.</p>
 </div>
 
-> Tip: Add or remove projects by creating/deleting files in `/projects/`.
+<div class="card">
+  <span class="badge">Deep South</span>
+  <h3>Telehealth Readiness & Cardiovascular Health</h3>
+  <div class="meta">Mississippi & neighbors • Broadband, provider density</div>
+  <p>Links access/readiness with CHD burden; hotspot analysis and scenario planning for improved coverage.</p>
+</div>
+
+<div class="card">
+  <span class="badge">RUCC / Resilience</span>
+  <h3>Health & Aging Across the Rural–Urban Continuum</h3>
+  <div class="meta">RUCC 2010/2020 • BRIC</div>
+  <p>Explores spatial clustering, resilience, and demographic change patterns among older adults across trajectory counties.</p>
+</div>
+
+<div class="card">
+  <span class="badge">ICN</span>
+  <h3>Training Needs of Child Nutrition Professionals</h3>
+  <div class="meta">National survey • Evaluation analytics</div>
+  <p>Identifies priority topics and delivery preferences to inform training design and quality improvement.</p>
+</div>
+
+</div>
