@@ -37,12 +37,6 @@ permalink: /students/
 </div>
 
 <div class="card">
-  <h3>Elizabeth Swindell (Alumni)</h3>
-  <div class="meta">MPH</div>
-  <p>Literature synthesis, data curation, Manuscript Writing, Spatial Analysis.</p>
-</div>
-
-<div class="card">
   <h3>Riley Morgan (Alumni)</h3>
   <div class="meta">MPH</div>
   <p>Literature synthesis, data curation, Manuscript Writing, Spatial Analysis.</p>
