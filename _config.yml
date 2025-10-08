@@ -1,7 +1,10 @@
-title: "MAPS Lab: Modeling, Analytics, and Predictive Spatial Health Research"
+title: "MAPS Lab"
+tagline: "Modeling, Analytics, and Predictive Spatial Health Research"
 url: "https://ruaaljuboori.github.io"
 baseurl: "/MAPS-Lab"
 theme: minima
+logo: /assets/logo.png   # put your logo file here
+
 
 header_pages:
   - projects.md
