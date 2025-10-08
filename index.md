@@ -4,6 +4,7 @@ title: MAPS Lab
 ---
 
 <section class="home-hero">
+  <img class="hero-logo" src="{{ '/assets/logo.png' | relative_url }}" alt="MAPS Lab logo">
   <h1>MAPS Lab</h1>
   <p class="lead">Modeling, Analytics, and Predictive Spatial Health Research</p>
 
