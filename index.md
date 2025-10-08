@@ -1,6 +1,5 @@
 ---
 layout: home
-title: MAPS Lab
 ---
 
 <section class="home-hero">
