@@ -8,7 +8,7 @@ layout: home
   <h3>Modeling, Analytics, and Predictive Spatial Health Research</h3>
   <p class="lead">
     We leverage geospatial analytics and statistical modeling to study health outcomes,
-    telehealth readiness, and resilience across the rural–urban continuum—turning public
+    telehealth readiness, and resilience across the rural–urban continuum turning public
     health data into actionable insight.
   </p>
 
