@@ -26,12 +26,15 @@ permalink: /people/
 
 ## Students
 
-<div class="cards">
-  <div class="card">
+<div class="card person">
+  <img class="avatar" src="{{ '/assets/dylan.png' | relative_url }}" alt="Dylan Barker headshot">
+  <div>
     <h4>Dylan Barker</h4>
     <div class="role">MPH Student</div>
     <p>Literature synthesis, data curation, manuscript writing, spatial analysis.</p>
   </div>
+</div>
+
 
   <div class="card">
     <h4>Annina Liebner</h4>
