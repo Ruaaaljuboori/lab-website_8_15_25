@@ -7,7 +7,7 @@ permalink: /people/
 ## Principal Investigator
 
 <div class="people-hero">
-  <img src="{{ '/assets/pi.jpg' | relative_url }}" alt="Ruaa Al-Juboori headshot">
+ <img src="{{ '/assets/ruaa.png' | relative_url }}" alt="Ruaa Al-Juboori headshot">
   <div>
     <h2 class="name">Ruaa Al-Juboori, PhD, MPH, MBChB</h2>
     <div class="title">Assistant Professor of Public Health & Data Analytics Statistician</div>
