@@ -9,7 +9,7 @@ permalink: /people/
 <div class="people-hero">
  <img src="{{ '/assets/ruaa.png' | relative_url }}" alt="Ruaa Al-Juboori headshot">
   <div>
-    <h2 class="name">Ruaa Al-Juboori, PhD, MPH, MBChB</h2>
+    <h2 class="name">Ruaa Al Juboori, PhD, MPH, MBChB</h2>
     <div class="title">Assistant Professor of Public Health & Data Analytics Statistician</div>
     <div class="affil">University of Mississippi · Department of Public Health · Institute of Child Nutrition</div>
 
