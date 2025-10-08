@@ -4,9 +4,13 @@ title: Funding
 permalink: /funding/
 ---
 
-## Active Projects
-- NIH (NIA) Pilot Grant – *Geospatial Analysis of Health Outcomes Among Older Adults Across the Rural–Urban Continuum*  
-- University of Mississippi ORED Small Grant – *Mapping Diagnostic Gaps in Alzheimer’s Disease*
+## Active / Recent
+- **ORED Small Grant (Ole Miss)** — *Mapping the Diagnostic Gap in Alzheimer’s Disease*.  
+- **Institute of Child Nutrition** — *Training Needs and Delivery Preferences* (evaluation analytics).
+
+## In Preparation / Targets
+- **NIH/NIA R03** — Alzheimer’s diagnostic gap & service deserts (national geospatial analysis).  
+- **MCCTR Pilot Projects** — Deep South health disparities focus.
 
 ## Past Support
-- Institute of Child Nutrition – *Training Needs and Preferences of Child Nutrition Professionals*
+- Department/School support for student research assistants and computational resources.
