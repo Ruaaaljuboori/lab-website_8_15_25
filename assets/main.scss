@@ -148,3 +148,14 @@ body {
 /* —— Keep header content aligned nicely —— */
 .site-header .wrapper { display: flex; align-items: center; justify-content: space-between; }
 
+/* Student avatar in cards (only applies when an <img.avatar> exists) */
+.card.person { display: flex; gap: 12px; align-items: flex-start; }
+.card.person .avatar {
+  width: 56px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #e5e7eb;
+}
+
+
