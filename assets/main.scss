@@ -25,7 +25,7 @@ body { font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helveti
 }
 .site-title { font-weight: 800; }
 
-/* Home hero (wrap your intro on index.md in <section class="home-hero">…</section>) */
+/* Home hero */
 .home-hero {
   margin: 1.25rem 0 2rem;
   padding: 28px 20px;
@@ -47,7 +47,7 @@ body { font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helveti
 }
 .btn:hover { background: #eef2f7; }
 
-/* People page */
+/* People page (PI hero) */
 .people-hero {
   display: grid; grid-template-columns: 128px 1fr; gap: 20px;
   align-items: center; margin: 1rem 0 1.5rem;
@@ -70,7 +70,7 @@ body { font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helveti
 .card  { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 16px; box-shadow: 0 1px 2px rgba(0,0,0,.03); }
 .role  { color: #64748b; }
 
-/* Optional dark mode (respects system setting) */
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
   body { background: #0b1220; color: #e2e8f0; }
   .site-header { background: linear-gradient(90deg, rgba(14,165,233,.15), rgba(59,130,246,.15)); border-bottom-color:#1e293b; }
@@ -80,18 +80,18 @@ body { font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helveti
   .btn:hover { background:#111827; }
 }
 
-/* ——— Layout: give the site a wider, airier feel ——— */
+/* Layout */
 .wrapper { max-width: 1080px; padding-left: 20px; padding-right: 20px; }
 
-/* ——— Nav polish ——— */
+/* Nav polish */
 .site-nav .page-link { padding: .25rem .6rem; border-radius: 8px; }
 .site-nav .page-link:hover { background: rgba(14,165,233,.08); }
 
-/* ——— Home hero: mission + buttons ——— */
+/* Home hero: mission + buttons */
 .home-hero .mission { max-width: 70ch; margin: .35rem auto 1rem; color: #475569; }
 .hero-cta { display:flex; gap:.5rem; justify-content:center; flex-wrap:wrap; }
 
-/* ——— Latest Highlights: card list ——— */
+/* Latest Highlights */
 .highlights { list-style:none; padding-left:0; margin:.75rem 0 2rem; }
 .highlights li {
   background:#fff; border:1px solid #e2e8f0; border-radius:12px;
@@ -99,22 +99,21 @@ body { font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helveti
 }
 .highlights li strong { font-weight:700; }
 
-/* ——— People page: better mobile behavior ——— */
+/* People page: better mobile behavior */
 @media (max-width: 640px) {
   .people-hero { grid-template-columns: 1fr; text-align:center; }
   .people-hero img { margin: 0 auto; }
 }
 
-/* ——— Footer tidy ——— */
+/* Footer tidy */
 .site-footer { border-top:1px solid #e2e8f0; color:#64748b; }
-.site-footer .footer-col { float:none; width:auto; } /* collapses to one column nicely */
+.site-footer .footer-col { float:none; width:auto; }
 
-/* ——— Subtle link styling ——— */
+/* Links */
 a { text-underline-offset: 2px; }
 a:hover { text-decoration: underline; }
 
-/* ——— Optional: very light paper texture instead of flat white ——— */
-/*
+/* Optional: very light paper texture (enable by uncommenting)
 body {
   background:
     radial-gradient(circle at 1px 1px, rgba(15,23,42,.05) 1px, transparent 1px) 0 0/22px 22px,
@@ -122,22 +121,12 @@ body {
 }
 */
 
-/* —— Optional: very light paper texture ——
-   To enable, remove the outer comment below. */
-/*
-body {
-  background:
-    radial-gradient(circle at 1px 1px, rgba(15,23,42,.05) 1px, transparent 1px) 0 0/22px 22px,
-    #f8fafc;
-}
-*/
-
-/* —— Small logo beside site title (top banner) —— */
+/* Small logo beside site title (top banner) */
 .site-title { display: inline-flex; align-items: center; gap: 8px; }
 .site-logo  { display: inline-block; max-height: 26px; width: auto; }
 @media (max-width: 640px) { .site-logo { max-height: 22px; } }
 
-/* —— Big centered logo on the home hero —— */
+/* Big centered logo on the home hero */
 .hero-logo {
   display: block;
   width: clamp(200px, 28vw, 340px);
@@ -145,31 +134,30 @@ body {
   filter: drop-shadow(0 1px 1px rgba(0,0,0,.08));
 }
 
-/* —— Keep header content aligned nicely —— */
+/* Keep header content aligned nicely */
 .site-header .wrapper { display: flex; align-items: center; justify-content: space-between; }
 
-/* Student avatar in cards (only applies when an <img.avatar> exists) */
-.card.person { display: flex; gap: 12px; align-items: flex-start; }
-.card.person .avatar {
-  width: 56px;
-  aspect-ratio: 1 / 1;
+/* —— Students: avatar same size/style as PI (128×128) —— */
+.cards .card.person{
+  display: grid;
+  grid-template-columns: 128px 1fr;  /* avatar | text */
+  gap: 16px;
+  align-items: center;
+}
+
+.cards .card.person .avatar{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
   object-fit: cover;
-  border-radius: 50%;
-  border: 1px solid #e5e7eb;
+  object-position: 50% 40%;
+  border: 2px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
 }
 
-/* Student avatar in cards */
-.card.person { display: flex; gap: 12px; align-items: flex-start; }
-.card.person .avatar {
-  width: 56px;               /* avatar size */
-  height: 56px;
-  flex: 0 0 56px;
-  object-fit: cover;         /* crop nicely */
-  object-position: 50% 40%;  /* nudge if needed */
-  border-radius: 50%;
-  border: 1px solid #e5e7eb;
+/* Mobile adjustments */
+@media (max-width: 520px){
+  .cards .card.person{ grid-template-columns: 1fr; }
+  .cards .card.person .avatar{ width: 112px; height: 112px; margin: 0 auto; }
+  .cards .card.person > div{ text-align: center; }
 }
-
-/* safety: prevent any image inside .cards from blowing up */
-.cards .card img { max-width: 96px; height: auto; }
-
