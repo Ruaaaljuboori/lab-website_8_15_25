@@ -14,7 +14,7 @@ layout: home
 
   <div style="margin-top:16px">
     <a class="btn" href="{{ '/projects/'  | relative_url }}">Projects</a>
-    <a class="btn" href="{{ '/students/'  | relative_url }}">Students</a>
+    <a class="btn" href="{{ '/people/'  | relative_url }}">People</a>
     <a class="btn" href="{{ '/funding/'   | relative_url }}">Funding</a>
     <a class="btn" href="{{ '/products/'  | relative_url }}">Products</a>
   </div>
