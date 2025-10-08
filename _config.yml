@@ -1,11 +1,9 @@
-title: "GRASP Lab"
-description: "Geospatial Research And Statistical modeling in Public Health"
+title: GRASP Lab
+description: Geospatial Research And Statistical Modeling in Public Health
 theme: minima
-
-# IMPORTANT for a project site (repo name is lab-website_8_15_25)
-url: "https://ruaaaljuboori.github.io"
-baseurl: "/lab-website_8_15_25"
 
 header_pages:
   - projects.md
-  - people.md
+  - students.md
+  - funding.md
+  - products.md
