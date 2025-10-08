@@ -122,19 +122,29 @@ body {
 }
 */
 
-/* ——— Header logo beside site title ——— */
-.site-title { display: inline-flex; align-items: center; gap: 10px; }  /* keep your font-weight */
-.site-logo { display: inline-block; max-height: 40px; width: auto; }  /* banner size */
-@media (max-width: 640px) { .site-logo { max-height: 32px; } }
+/* —— Optional: very light paper texture ——
+   To enable, remove the outer comment below. */
+/*
+body {
+  background:
+    radial-gradient(circle at 1px 1px, rgba(15,23,42,.05) 1px, transparent 1px) 0 0/22px 22px,
+    #f8fafc;
+}
+*/
 
-/* ——— Big centered logo on the home hero ——— */
+/* —— Small logo beside site title (top banner) —— */
+.site-title { display: inline-flex; align-items: center; gap: 8px; }
+.site-logo  { display: inline-block; max-height: 26px; width: auto; }
+@media (max-width: 640px) { .site-logo { max-height: 22px; } }
+
+/* —— Big centered logo on the home hero —— */
 .hero-logo {
   display: block;
-  width: clamp(200px, 28vw, 340px);   /* easy size control */
+  width: clamp(200px, 28vw, 340px);
   margin: 0 auto 10px;
   filter: drop-shadow(0 1px 1px rgba(0,0,0,.08));
 }
 
-/* Optional: keep header items perfectly aligned across — */
+/* —— Keep header content aligned nicely —— */
 .site-header .wrapper { display: flex; align-items: center; justify-content: space-between; }
 
