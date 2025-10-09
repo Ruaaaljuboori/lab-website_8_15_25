@@ -208,3 +208,21 @@ body {
 
 /* safety: prevent any image inside .cards from blowing up */
 .cards .card img { max-width: 96px; height: auto; }
+
+/* === Dylan: small circular avatar (56×56) === */
+.cards .card.person { display: flex !important; gap: 12px !important; align-items: flex-start !important; }
+
+.cards .card.person > img,
+.cards .card.person .avatar {
+  width: 56px !important;
+  height: 56px !important;
+  flex: 0 0 56px !important;
+  max-width: none !important;        /* beats img{max-width:100%} */
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: 50% 40% !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+/* Only limit images in other cards (not the person card) */
+.cards .card:not(.person) img { max-width: 96px; height: auto; }
