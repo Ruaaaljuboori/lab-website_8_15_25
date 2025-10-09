@@ -162,3 +162,34 @@ body {
   .cards .card.person > div{ text-align: center; }
 }
 
+/* === Force student avatar to match PI size (128×128, circular) === */
+.cards .card.person{
+  display: grid !important;
+  grid-template-columns: 128px 1fr !important; /* avatar | text */
+  gap: 16px !important;
+  align-items: center !important;
+}
+
+/* Works whether you used class="avatar" or a bare <img> first-child */
+.cards .card.person > img,
+.cards .card.person .avatar{
+  width: 128px !important;
+  height: 128px !important;
+  max-width: none !important;     /* beat img{max-width:100%} */
+  flex: 0 0 128px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: 50% 40% !important;  /* nudge face if needed */
+  border: 2px solid #e5e7eb !important;  /* match PI border */
+  box-shadow: 0 1px 2px rgba(0,0,0,.04) !important;
+}
+
+/* Mobile: stack & slightly shrink */
+@media (max-width: 520px){
+  .cards .card.person{ grid-template-columns: 1fr !important; }
+  .cards .card.person > img,
+  .cards .card.person .avatar{
+    width: 112px !important; height: 112px !important; margin: 0 auto !important;
+  }
+  .cards .card.person > div{ text-align: center !important; }
+}
