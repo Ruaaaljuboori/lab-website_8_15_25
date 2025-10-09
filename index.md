@@ -24,7 +24,7 @@ layout: home
 
 <ul class="highlights">
   <li><strong>Mapping the Diagnostic Gap in Alzheimer’s Disease</strong> — national analysis of diagnosis vs. expected prevalence and service deserts.</li>
-  <li><strong>Telehealth Readiness in the Deep South</strong> — spatial access and infrastructure gaps.</li>
-  <li><strong>Aging Across the Rural–Urban Continuum</strong> — resilience and population change patterns.</li>
-  <li><strong>Food Safety in Child Nutrition Programs</strong> — national evaluation of adoption and impact.</li>
+  <li><strong>Telehealth Readiness in the Deep South</strong> -spatial access and infrastructure gaps.</li>
+  <li><strong>Aging Across the Rural–Urban Continuum</strong> -resilience and population change patterns.</li>
+  <li><strong>Food Safety in Child Nutrition Programs</strong> -national evaluation of adoption and impact.</li>
 </ul>
