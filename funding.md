@@ -5,12 +5,10 @@ permalink: /funding/
 ---
 
 ## Active / Recent
-- **ORED Small Grant (Ole Miss)** — *Mapping the Diagnostic Gap in Alzheimer’s Disease*.  
-- **Institute of Child Nutrition** — *Training Needs and Delivery Preferences* (evaluation analytics).
-
-## In Preparation / Targets
-- **NIH/NIA R03** — Alzheimer’s diagnostic gap & service deserts (national geospatial analysis).  
-- **MCCTR Pilot Projects** — Deep South health disparities focus.
+- **Impcat Grant (Ole Miss)** — *Advanced Geospatial HIV Data Dashboard for Public Health Decision-Making in Mississippi*.  
+- **ORED Small Grant (Ole Miss)** — *Geospatial Analysis of Health Disparities and Resilience Factors Among Older Adults Across the Rural-Urban Continuum*. 
 
 ## Past Support
-- Department/School support for student research assistants and computational resources.
+- **Research and Community Engagement Investment Grants, (SAS-RCEI) (Ole Miss)** 
+- **Achieving Equity Investment Grants 2024 (Ole Miss)** 
+- **Achieving Equity Investment Grants 2023 (Ole Miss)** 
