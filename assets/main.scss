@@ -193,3 +193,18 @@ body {
   }
   .cards .card.person > div{ text-align: center !important; }
 }
+
+/* Student avatar in cards */
+.card.person { display: flex; gap: 12px; align-items: flex-start; }
+.card.person .avatar {
+  width: 56px;               /* avatar size */
+  height: 56px;
+  flex: 0 0 56px;
+  object-fit: cover;         /* crop nicely */
+  object-position: 50% 40%;  /* nudge if needed */
+  border-radius: 50%;
+  border: 1px solid #e5e7eb;
+}
+
+/* safety: prevent any image inside .cards from blowing up */
+.cards .card img { max-width: 96px; height: auto; }
