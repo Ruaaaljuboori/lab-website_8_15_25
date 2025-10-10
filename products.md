@@ -4,14 +4,13 @@ title: Products
 permalink: /products/
 ---
 
-## Publications & Manuscripts
-- **Mapping the Gaps: Coronary Heart Disease & Access in Mississippi** — submitted.  
-- **Telehealth Readiness, Access, and Cardiovascular Health** — revision in progress.  
-- **Family Child Care Food Safety Kit** — *Journal of Child Nutrition & Management* (Practical Solutions).
+## Manuscripts
+- **Mapping the Gaps: Coronary Heart Disease & Access in Mississippi** 
+- **Telehealth Readiness, Access, and Cardiovascular Health** 
 
-## Dashboards & Tools
-- **Geospatial HIV Data Dashboard (MS)** — Tableau prototype (hotspots + service locator).  
-- **Geodata Website** — public data portal (under development).
 
-## Datasets / Code
+## Presentations
+- **Geospatial HIV Data Dashboard (MS)** - Tableau prototype (hotspots + service locator). (under development).
+
+## StoryMaps
 - County-level RUCC/BRIC overlays and reproducible R scripts (forthcoming GitHub repos).
